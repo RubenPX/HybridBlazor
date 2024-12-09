@@ -17,8 +17,8 @@ public partial class Form1 : Form {
         blazorWebView.HostPage = "wwwroot\\index.html";
         blazorWebView.Services = services.BuildServiceProvider();
         blazorWebView.RootComponents.Add<Index>("#app");
-        
         blazorWebView.Dock = DockStyle.Fill;
+        
         Controls.Add(blazorWebView);
     }
 }
