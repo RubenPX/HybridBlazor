@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Components.WebView.WindowsForms;
 using Microsoft.Extensions.DependencyInjection;
+using WebApp;
 using Index = WebApp.Index;
 
 namespace FormsBlazor;
@@ -10,6 +11,7 @@ public partial class Form1 : Form {
         
         var services = new ServiceCollection();
         services.AddWindowsFormsBlazorWebView();
+        WebAppServices.registerServices(services);
         
         BlazorWebView blazorWebView = new BlazorWebView();
         blazorWebView.HostPage = "wwwroot\\index.html";

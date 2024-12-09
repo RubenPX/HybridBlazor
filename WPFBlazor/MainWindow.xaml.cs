@@ -9,6 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Extensions.DependencyInjection;
+using WebApp;
 using Index = WebApp.Index;
 
 namespace WPFBlazor;
@@ -23,6 +24,9 @@ public partial class MainWindow : Window {
         var serviceCollection = new ServiceCollection();
         serviceCollection.AddWpfBlazorWebView();
         serviceCollection.AddBlazorWebViewDeveloperTools();
+        
+        WebAppServices.registerServices(serviceCollection);
+        
         Resources.Add("services", serviceCollection.BuildServiceProvider());
         
         BlazorWebView1.HostPage = "wwwroot/index.html";

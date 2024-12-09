@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormsBlazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66313cebfa117d41ec19f0cf0b823567789f2f62")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormsBlazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormsBlazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
