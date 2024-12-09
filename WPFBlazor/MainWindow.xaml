@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <wpf:BlazorWebView Name="BlazorWebView1" HostPage="index.html" Services="{DynamicResource services}">
+        <wpf:BlazorWebView Name="BlazorWebView1" HostPage="www/index.html" Services="{DynamicResource services}">
             <wpf:BlazorWebView.RootComponents>
                 <wpf:RootComponent Selector="#app" ComponentType="{x:Type webApp:Index}" />
             </wpf:BlazorWebView.RootComponents>
