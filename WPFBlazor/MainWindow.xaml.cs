@@ -29,8 +29,4 @@ public partial class MainWindow : Window {
         BlazorWebView1.Services = serviceCollection.BuildServiceProvider();
         
     }
-
-    private void UIElement_OnStylusEnter(object sender, StylusEventArgs e) {
-        throw new NotImplementedException();
-    }
 }
