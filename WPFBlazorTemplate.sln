@@ -6,8 +6,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFBlazor", "WPFBlazor\WPFBlazor.csproj", "{888F16DC-3AF9-4154-BB9C-756FEFCE50CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsBlazor", "FormsBlazor\FormsBlazor.csproj", "{4B535940-09F0-4A46-BD8C-2434078A4DCB}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,13 +20,8 @@ Global
 		{888F16DC-3AF9-4154-BB9C-756FEFCE50CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{888F16DC-3AF9-4154-BB9C-756FEFCE50CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{888F16DC-3AF9-4154-BB9C-756FEFCE50CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B535940-09F0-4A46-BD8C-2434078A4DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B535940-09F0-4A46-BD8C-2434078A4DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B535940-09F0-4A46-BD8C-2434078A4DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B535940-09F0-4A46-BD8C-2434078A4DCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{888F16DC-3AF9-4154-BB9C-756FEFCE50CC} = {F3FE314D-8D9E-4C26-B2E1-E411C33018A5}
-		{4B535940-09F0-4A46-BD8C-2434078A4DCB} = {F3FE314D-8D9E-4C26-B2E1-E411C33018A5}
 	EndGlobalSection
 EndGlobal
